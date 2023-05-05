@@ -56,7 +56,6 @@ select{
 }
 .navbar {
     width:100% ;
-    /* background-color: chartreuse; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -73,7 +72,7 @@ select{
     padding-left: 25px;
 }
 .companyname{
-    font-family:cursive;
+    font-family:arial;
     color: white;
     font-size: 25px;
   }
@@ -83,9 +82,10 @@ select{
     padding: 10px;
     border-radius: 20px;
     color: white;
-    width: 120px;
+    width: 250px;
     cursor: pointer; 
     text-align: center;  
+    text-decoration: none;
   }
 .para{
     font-size: 20px;
@@ -111,9 +111,6 @@ select{
     background: linear-gradient(to right ,#4d53c4,#d3d9e3);
     height: 120PX;
 }
-.formm2{
-    display: none;
-}
 .ancor{
     font-family: Arial;
     font-weight:900;
@@ -126,6 +123,10 @@ select{
 .link{
     color: yellow;
 }
+
+.size{
+    width: 100%;
+}
 @media screen and (max-width:600px){
     .body{
         width: 100%;
@@ -133,10 +134,10 @@ select{
     .navbar{
         width: 100%;
         display: flex;
-        margin-top: 100px;
         flex-direction: column;
         align-items: center;
         gap: 10px;
+        font-size: 12px;
     }
     .heading{
         width: 100%;        
@@ -149,4 +150,18 @@ select{
     height: 50px;
     padding-left: 10px;
     }
+    .formm{
+        margin-right: 0px;
+    }
+    .form{
+       
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .para{
+        font-size: 12px;
+    }
 }
+
+
