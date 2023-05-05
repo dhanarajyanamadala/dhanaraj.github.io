@@ -113,7 +113,7 @@ select{
     height: 120PX;
 }
 .ancor{
-    font-family: cursive;
+    font-family: Arial;
     font-weight:900;
 }
 .video{
@@ -126,7 +126,7 @@ select{
 }
 @media screen and (max-width:600px){
     .body{
-        width: 1080px;
+        width: 73.77mm;
         height: 2400px;
     }
 }
